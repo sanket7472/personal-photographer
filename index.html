@@ -2,150 +2,292 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ST Photo studio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-<link rel="stylesheet" href="./css/style.css">
-        <style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ST Photo studio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <style>
+    .navbar {
+      background-color: transparent;
 
-            .navbar{
-                background-color: transparent;
-                
-            }
-             .bg1{
-                background-image:url(./images/camera-or-phone-thumbnail.jpg) ;
-                height: 90vh;
-                background-size:cover;
-                background-repeat: no-repeat;
-                opacity: 1;
-            }
-            .bg2{
-                background-image:url(https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2020/07/MiNSach-1183.jpg) ;
-                height: 90vh;
-                background-size: cover;
-                opacity: .9;
-            }
-            .bg3{
-                background-image:url(./images/1.jpg) ;
-                height: 90vh;
-                background-size: cover;
-                opacity: .9;
-            }
-          .logo-s{
-            position: absolute;
-            top: 2%;
-            right: 2%;
+    }
 
-          }
-          .cw{
-            width: 30%;
-            margin: auto;
-            height: 300px;
-          }
-        </style>
+    .bg1 {
+      background-image: url(./images/camera-or-phone-thumbnail.jpg);
+      height: 90vh;
+      background-size: cover;
+      background-repeat: no-repeat;
+      opacity: 1;
+    }
+
+    .bg2 {
+      background-image: url(https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2020/07/MiNSach-1183.jpg);
+      height: 90vh;
+      background-size: cover;
+      opacity: .9;
+    }
+
+    .bg3 {
+      background-image: url(./images/1.jpg);
+      height: 90vh;
+      background-size: cover;
+      opacity: .9;
+    }
+
+    .logo-s {
+      position: absolute;
+      top: 2%;
+      right: 2%;
+
+    }
+
+    .cw {
+      width: 30%;
+      margin: auto;
+
+    }
+
+    .card-img {
+
+      margin: auto;
+      height: 400px;
+    }
+
+    .t-z {
+      color: white;
+    }
+    .con{
+      border: 2px solid black;
+      margin-bottom: 50px;
+      
+    }.gal{
+      padding: 40px; display: flex; align-items: center;
+    }
+    .img1{
+      border-radius: 10px;  
+      cursor: pointer;
+    }
+  </style>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg sticky-top  background-c" $zindex-sticky: 1020;>
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="./images/0.0.0..PNG" height="60px" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Gallery</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact US</a>
-              </li>
-             
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <div id="carouselExampleIndicators" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active bg1">
-            <img class="logo-s" src="./images/0.0.0..PNG" height="60px" alt="">
-          <div class="text-container">
-            <span class="text1">SUYOG TATHOD</span>
-            <span class="text2">CINE CLICK</span>
-          </div>
-          </div>
-          <div class="carousel-item bg2 ">
-            <img class="logo-s" src="./images/0.0.0..PNG" height="60px" alt="">
-          </div>
-          <div class="carousel-item bg3">
-            <img class="logo-s" src="./images/0.0.0..PNG" height="60px" alt="">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+  <nav class="navbar navbar-expand-lg sticky-top  background-c" $zindex-sticky: 1020;>
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="./images/0.0.0..PNG" height="60px" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact US</a>
+          </li>
 
-      <div class="container">
-        <h1>Indian Wedding Photography & Films for the Modern Couple</h1>
+        </ul>
       </div>
+    </div>
+  </nav>
+  <section id="home">
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active bg1">
+        <img class="logo-s" src="./images/0.0.0..PNG" height="60px" alt="">
+        <div class="text-container">
+          <span class="text1">SUYOG TATHOD</span>
+          <span class="text2">CINE CLICK</span>
+        </div>
+      </div>
+      <div class="carousel-item bg2 ">
+        <img class="logo-s" src="./images/0.0.0..PNG" height="60px" alt="">
+      </div>
+      <div class="carousel-item bg3">
+        <img class="logo-s" src="./images/0.0.0..PNG" height="60px" alt="">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
-      <div class="container">
-        <h1>Our Services</h1>
-      </div>
-      <section class="d-flex">
-     
+  <div class="container">
+    <h1>Indian Wedding Photography & Films for the Modern Couple</h1>
+  </div>
+</section>
+  <section id="services">
+    <div class="container">
+      <h1>Our Services</h1>
+    </div>
+    <section class="d-flex">
+
       <div class="card text-bg-light cw">
         <img src="./images/wed2.jpg" class="card-img" alt="...">
-        <div class="card-img-overlay">
+        <div class="card-img-overlay t-z">
+          <br><br><br><br><br><br><br><br>
           <h5 class="card-title">Wedding</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text"><small>Last updated 3 mins ago</small></p>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This content is a little bit longer.</p>
+          <p class="card-text"><button class="ct-btn btn">Contact Now</button></p>
         </div>
       </div>
       <div class="card text-bg-light cw">
         <img src="./images/eng12.jpg" class="card-img" alt="...">
-        <div class="card-img-overlay">
+        <div class="card-img-overlay t-z">
+          <br><br><br><br><br><br><br><br>
           <h5 class="card-title">Pre-Wedding</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text"><small>Last updated 3 mins ago</small></p>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This content is a little bit longer.</p>
+          <p class="card-text"><button class="ct-btn btn">Contact Now</button></p>
         </div>
       </div>
       <div class="card text-bg-light cw">
         <img src="./images/post4.jpg" class="card-img" alt="...">
-        <div class="card-img-overlay">
+        <div class="card-img-overlay t-z">
+          <br><br><br><br><br><br><br><br>
           <h5 class="card-title">Child</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text"><small>Last updated 3 mins ago</small></p>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This content is a little bit longer.</p>
+          <p class="card-text"><button class="ct-btn btn">Contact Now</button></p>
         </div>
       </div>
-      
-    </section>
 
+    </section>
+    <section id="gallary" class="gal" style="  color: #BE7656;">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="text-center display-5 mt-0 mb-5">Our <span >Gallery</span></h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="img1 mb-2">
+              <img src="./images/1.jpg" class="img-fluid "  alt="">
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="img1 mb-2">
+              <img src="./images/1.jpg" class="img-fluid"alt="">
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="img1 mb-2">
+              <img src="./images/1.jpg" class="img-fluid"alt="">
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="img1 mb-2">
+              <img src="./images/1.jpg" class="img-fluid"  alt="">
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="img1 mb-2">
+              <img src="./images/1.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="col-lg-4 mb-2">
+            <div class="img1 ">
+              <img src="./images/1.jpg" class="img-fluid" style="border-radius: 10px; cursor: alias;" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+  
+  <section id="contact">
+    <div class="container con">
+      <div class="row ">
+        <div class="col-lg-7" style="padding: 10px;" id="col1">
+          <h3 class="mt-5" style="color:black;" >Contact <span style="color: #BE7656;">Us</span></h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, odit sint iure dolor velit praesentium
+            eum accusantium enim quia!</p>
+          <div class="inp">
+            <form id="contact-form" action="#">
+              <input type="text" id="name" placeholder="Name:-" class="form-control mb-2"
+                aria-label="default input example">
+              <input type="text" id="email" placeholder="Email:-" class="form-control mb-2"
+                aria-label="default input example">
+              <input type="number" id="phone" placeholder="Contact No:-" class="form-control mb-2"
+                aria-label="default input example">
+            </form>
+          </div>
+          <button id="submit" onclick="submit()" class="btn contact-btn mt-3"
+            style="border: 1px solid black; padding: 5px 20px;"> Contact
+            Us</button>
+        </div>
+     
+  
+        <div class="col-lg-4 mt-5 bg-dark p-5 " style="display: flex; flex-direction: column;justify-self:center; "
+          id="contact-black">
+          <h4 class="text-white">Info</h4>
+          <a href="#" style="text-decoration: none; color: #F0EAE7;"> <i class="fa-solid fa-envelope-circle-check"></i>
+            amardhadbale@gmail.com</a>
+          <a href="#" style="text-decoration: none; color: #F0EAE7;"> <i class="fa-solid fa-phone"></i>
+            99990-55534-234</a>
+          <a href="#" style="text-decoration: none; color: #F0EAE7;"> <i class="fa-solid fa-phone"></i> Maharastra state
+            bank</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="footer">
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-6 text-center">
+          <a class="navbar-brand" href="#"><img src="imgs/logo.png" alt="logo" width="160px"
+              style="border-radius: 12px;"></a>
+          <div class="icons pt-2">
+            <i class="fa-brands fa-twitter  bg-dark"
+              style="color: white; padding: 8px; border-radius: 7px; cursor: pointer;"></i>
+            <i class="fa-brands fa-instagram bg-dark"
+              style="color: white; padding: 8px; border-radius: 7px; cursor: pointer;"></i>
+            <i class="fa-brands fa-facebook bg-dark"
+              style="color: white; padding: 8px; border-radius: 7px; cursor: pointer;"></i>
+            <i class="fa-solid fa-envelope bg-dark"
+              style="color: white; padding: 8px; border-radius: 7px; cursor: pointer;"></i>
+            <i class="fa-brands fa-pinterest bg-dark"
+              style="color: white; padding: 8px; border-radius: 7px; cursor: pointer;"></i>
+          </div>
+          <p class=" pt-2">Designed By:- <strong>Amar Dhadbale</strong></p>
+          <p class="small" style="margin-top: -11px;"> <i class="fa-regular fa-copyright"></i> Copyright <strong
+              style="cursor: pointer;">Cofee Shop</strong> All Rights Reserved</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>
