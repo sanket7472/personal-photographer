@@ -1,3 +1,179 @@
+.navbar {
+    background-color: transparent;
+
+  }
+
+  .bg1 {
+    background-image: url(./images/camera-or-phone-thumbnail.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+  }
+
+  .bg2 {
+    background-image: url(https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2020/07/MiNSach-1183.jpg);
+    height: 90vh;
+    background-size: cover;
+    opacity: .9;
+  }
+
+  .bg3 {
+    background-image: url(./images/1.jpg);
+    height: 90vh;
+    background-size: cover;
+    opacity: .9;
+  }
+
+  .logo-s {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+
+  }
+
+  .cw {
+    width: 30%;
+    margin: auto;
+
+  }
+
+  .card-img {
+
+    margin: auto;
+    height: 400px;
+  }
+
+  .t-z {
+    color: white;
+  }
+
+  .con {
+    border: 2px solid black;
+    margin-bottom: 50px;
+
+  }
+
+  .gal {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+  }
+
+  .img1 {
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .icon-img {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .l-d {
+    border: 2px black solid;
+    width: 300px;
+    padding: 20PX;
+  }
+  .f-t{
+    margin-left: 50PX;
+    font-size: larger;
+    
+  }
+  .footr{
+    width: 1500px;
+}
+.f{
+    background-color: #fff;
+    text-align: center;
+    color: #000;
+    font-weight: bolder;
+    font-size: 18px;
+    font-family: 'Lora', serif;
+    padding: 5px 5px;
+    margin-bottom: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.social-logo{
+    height: 30px;
+    margin: 0 20px;
+    padding-left: 20px;
+}
+.ft{
+    margin-top: 10px;
+    font-family: 'Lora', serif;
+    background-color: #fff;
+    color: #000;
+    border-top:1px solid #F8EBCF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 25px 10px;
+   
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.ft .description{
+    font-size:18px;
+    color: #000;
+}
+.description-f{
+    font-size: 18px;
+    color: #000;
+}
+
+.ft .address{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #000;
+}
+.ft .address .mp{
+    text-decoration: none;
+    color: #000;
+}
+.ft .call-us{
+    text-align: left;
+}
+.ft .call-us .cnt{
+    text-decoration: none;
+    color: #000;
+}
+.ft .mail{
+    text-align: left;
+}
+.ft .mail .ml{
+    text-decoration: none;
+    color: #000;
+}
+.ft2{
+    font-family: 'Lora', serif;
+    background-color: #fff;
+    color: #000;
+    border-top:1px solid #A62C31;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-bottom: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.g-img{
+  border-radius: 5%;
+}
+.g-img-hover{
+  transform: scale(1.1);
+  width: 200px;
+  box-shadow:#000(5,5,5,5);
+
+}
+.ct-btn{
+  color:#fff;
+}
 .text-container{
     text-align: center;
     position: absolute;
