@@ -59,7 +59,7 @@ We would like to thank the following individuals and organizations for their con
 If you have any questions or need help with CINECLICK SUYOG TATHOD, please don't hesitate to reach out:
 
 * [info@cineclicksuyogtathod.com](mailto:info@cineclicksuyogtathod.com)
-* [GitHub](https://github.com/[Your GitHub username])
+* (https://github.com/sanket7472)
 
 ## Social Media
 ---------------
